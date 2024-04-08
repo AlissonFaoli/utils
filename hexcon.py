@@ -9,7 +9,7 @@ import os, sys, re
 if sys.platform == 'linux':
 	pro_tip = f'''\n\033[36mPro tip:
 	It works smoother if you add \033[35mhexcon\033[39m \033[36mto your aliases file.
-	Command: \033[33msudo echo "alias hexcon='{os.path.abspath(__file__)}'" >> {os.getenv('HOME')}/.{os.getenv('SHELL').split(os.sep)[-1].lower()}_aliases\033[39m\n'''
+	Command: \033[33msudo echo "alias hexcon='python3 {os.path.abspath(__file__)}'" >> {os.getenv('HOME')}/.{os.getenv('SHELL').split(os.sep)[-1].lower()}_aliases\033[39m\n'''
 else:
 	pro_tip = ''
 
