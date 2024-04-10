@@ -92,23 +92,23 @@ def interactive():
 		try:
 			match input('[1] Text to hex\n[2] Hex to text\n[3] URL encode\n[4] URL decode\n[5] Exit\n> '):
 				case '1':
-					print('\033[32m[+]\033[39m Result: '+th(input('Text to hex: ')))
+					print('\n\033[32m[+]\033[39m Result: '+th(input('Text to hex: '))+'\n')
 				case '2':
-					print('\033[32m[+]\033[39m Result: '+fh(input('Hex to text: ')))
+					print('\n\033[32m[+]\033[39m Result: '+fh(input('Hex to text: '))+'\n')
 				case '3':
-					print('\033[32m[+]\033[39m Result: '+url_encode(input('Text to URL encode: ')))
+					print('\n\033[32m[+]\033[39m Result: '+url_encode(input('Text to URL encode: '))+'\n')
 				case '4':
-					print('\033[32m[+]\033[39m Result: '+url_decode(input('URL encoded text: ')))
+					print('\n\033[32m[+]\033[39m Result: '+url_decode(input('URL encoded text: '))+'\n')
 				case '5':
 					break
 				case _:
-					print('\033[31m[!]\033[39m Invalid option!')
+					print('\n\033[31m[!]\033[39m Invalid option!\n')
 		except KeyboardInterrupt:
 			break
 		except ValueError:
-			print('\033[31m[!]\033[39m Bad format!')
+			print('\n\033[31m[!]\033[39m Bad format!\n')
 		except Exception:
-			print('\033[31m[!]\033[39m Fatal error...')
+			print('\n\033[31m[!]\033[39m Fatal error...\n')
 	sys.exit(0)
 
 
