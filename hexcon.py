@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
-# by AlissoftCodes
-# Github: https://github.com/AlissoftCodes/
+# by AlissonFaoli
+# Github: https://github.com/AlissonFaoli/
 # Instagram: https://instagram.com/AlissonFaoli
 
 import os, sys, re
@@ -14,8 +14,8 @@ else:
 	pro_tip = ''
 
 HELP = f'''
-\033[35mhexcon\033[39m \033[32mby AlissoftCodes\033[39m
-\033[34mGithub\033[39m: \033[32mhttps://github.com/AlissoftCodes/utils/blob/main/hexcon.py\033[39m
+\033[35mhexcon\033[39m \033[32mby AlissonFaoli\033[39m
+\033[34mGithub\033[39m: \033[32mhttps://github.com/AlissonFaoli/utils/blob/main/hexcon.py\033[39m
 
 Usage:
 	python3 {sys.argv[0]} [options]
