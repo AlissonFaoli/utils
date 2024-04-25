@@ -132,7 +132,7 @@ def get_mode():
 		mode = re.sub(r'^--intelligent', '-i', mode)
 		return mode
 	else:
-		return 'i'
+		return '-i'
 
 
 def main():
